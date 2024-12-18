@@ -1,0 +1,256 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* First navigation bar */
+.fnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:gainsboro;
+    color: white;
+}
+
+.fnav .left {
+    display: flex;
+    align-items: center;
+}
+
+.fnav .left img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.fnav .left input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.fnav .right {
+    display: flex;
+    align-items: center;
+}
+
+.fnav .right p {
+    margin-right: 20px;
+}
+
+.fnav .right button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.fa-bars {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Second navigation bar */
+.sec-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+.sec-nav .s-left,
+.sec-nav .s-right {
+    display: flex;
+}
+
+.sec-nav p {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Main image */
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+/* Container for recommended movies */
+.container {
+    padding: 20px;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 18%;
+    border-radius: 10px;
+}
+
+/* Banner image */
+.banner img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/*best of live events */
+.containers {
+    padding: 20px;
+}
+
+.containers h2 {
+    margin-bottom: 10px;
+}
+
+.containers .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containers .card img {
+    width: 18%;
+    border-radius: 10px;
+}
+
+/* PREMEIRE section */
+.premeire {
+    padding: 20px;
+    background-color:black;
+    color: white;
+}
+
+.premeire h2 {
+    margin-bottom: 10px;
+}
+
+.premeire .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.premeire .container img {
+    width: 18%;
+    border-radius: 10px;
+}
+
+/* Laughter Therapy section */
+.Therapy {
+    padding: 20px;
+}
+
+.Therapy h2 {
+    margin-bottom: 10px;
+}
+
+.Therapy .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Therapy .card img {
+    width: 18%;
+    border-radius: 10px;
+}
+
+/* Popular events section */
+.popularevents {
+    padding: 20px;
+}
+
+.popularevents h2 {
+    margin-bottom: 10px;
+}
+
+.popularevents .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularevents .card img {
+    width: 18%;
+    border-radius: 10px;
+}
+
+/* Footer section */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff0000;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-logo::before,
+.footer-logo::after{
+    content: "________________________";
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: normal;
+    color: white; 
+
+}
+.footer-logo::before{
+    margin-right: 10px;
+}
+.footer-logo::after{
+    margin-left: 10px;
+}
+.content{
+    text-align: justify;
+}

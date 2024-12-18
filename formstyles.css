@@ -1,0 +1,27 @@
+#main{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: 10px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+fieldset{
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 40%;
+    box-shadow:0 0 15px black;
+    border-radius: 10px;
+}
+button{
+    height: 30px;
+    width: 145px;
+    color: white;
+    border: none;
+    background-color: rgb(113, 0, 243);
+    border-radius: 5px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BookMyShow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+    }
+    .recommended-movies {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .movie-card {
+      width: 200px;
+      margin: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .movie-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+    .movie-info {
+      padding: 10px;
+    }
+    .movie-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .movie-rating {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BookMyShow</h1>
+    <h2>Search for Movies, Events, Plays, Sports and Activities</h2>
+    <input type="search" placeholder="Search...">
+    <h2>Recommended Movies</h2>
+    <div class="recommended-movies">
+      <div class="movie-card">
+        <img src="kahan-shuru-poster.jpg" alt="Kahan Shuru">
+        <div class="movie-info">
+          <h3 class="movie-title">Kahan Shuru</h3>
+          <p class="movie-rating">Promoted</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="tumbbad-poster.jpg" alt="Tumbbad">
+        <div class="movie-info">
+          <h3 class="movie-title">Tumbbad</h3>
+          <p class="movie-rating">6.8/10 (7.2K Votes)</p>
+          <p>Genre: Fantasy/Horror/Period</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="joker-poster.jpg" alt="Joker">
+        <div class="movie-info">
+          <h3 class="movie-title">Joker: Folie a Deux</h3>
+          <p class="movie-rating">8.4/10 (89.8K Votes)</p>
+          <p>Genre: Drama/Suspense/Thriller</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
